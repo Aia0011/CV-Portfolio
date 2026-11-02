@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CV / Portfolio of Albea T. Pallado — BSIT student, aspiring IT professional." />
+  <title>Albea T. Pallado — CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== Preloader ===== -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <span class="preloader-logo">AP</span>
+      <div class="preloader-bar"><span></span></div>
+    </div>
+  </div>
+
+  <!-- ===== Scroll progress ===== -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ===== Animated background ===== -->
+  <div class="bg-decor" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="nav-logo">AP<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#connect" class="nav-link">Connect</a></li>
+        <li><a href="#achievements" class="nav-link">Awards</a></li>
+      </ul>
+      <a href="Pallado-CV.pdf" download class="btn btn-small nav-cta">Download CV</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="hero-greeting reveal">Hello, I'm</p>
+          <h1 class="hero-name reveal">Albea T. <span class="grad-text">Pallado</span></h1>
+          <p class="hero-role reveal">BSIT Student &nbsp;·&nbsp; Aspiring IT Professional</p>
+          <p class="hero-desc reveal">
+            Motivated and adaptable, with a strong interest in technology and design —
+            committed to producing quality work and growing professionally.
+          </p>
+          <div class="hero-actions reveal">
+            <a href="#about" class="btn btn-primary">Explore My CV</a>
+            <a href="Pallado-CV.pdf" download class="btn btn-outline">Download CV</a>
+          </div>
+          <div class="hero-contact reveal">
+            <a href="tel:+639488124593" class="contact-chip">
+              <span class="chip-icon">&#9990;</span> +63 948 812 4593
+            </a>
+            <a href="mailto:aiapallado@gmail.com" class="contact-chip">
+              <span class="chip-icon">&#9993;</span> aiapallado@gmail.com
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="avatar-card">
+            <div class="avatar-ring"></div>
+            <div class="avatar"><img src="me.png" alt="Albea T. Pallado" /></div>
+            <div class="avatar-badge">BSIT</div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll down">
+        <span class="mouse"><span class="wheel"></span></span>
+      </a>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="title-num">01</span> About Me</h2>
+        <div class="about-grid">
+          <div class="about-card glass reveal">
+            <p>
+              I am a motivated and adaptable individual who is eager to learn, grow, and take
+              on new challenges. I am responsible, detail-oriented, and committed to producing
+              quality work.
+            </p>
+            <p>
+              I work well independently and as part of a team, and I value clear communication,
+              continuous improvement, and professionalism. I am seeking an opportunity where I
+              can contribute my skills while gaining valuable experience and growing professionally.
+            </p>
+          </div>
+          <div class="about-facts reveal">
+            <div class="fact glass">
+              <span class="fact-icon">&#127979;</span>
+              <div><strong>Degree</strong><p>BS Information Technology</p></div>
+            </div>
+            <div class="fact glass">
+              <span class="fact-icon">&#128205;</span>
+              <div><strong>School</strong><p>Davao del Norte State College</p></div>
+            </div>
+            <div class="fact glass">
+              <span class="fact-icon">&#128188;</span>
+              <div><strong>Focus</strong><p>Technology, Design &amp; UI/UX</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section class="section" id="education">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="title-num">02</span> Education</h2>
+        <div class="edu-card glass reveal">
+          <div class="edu-year">2023 — Present</div>
+          <div class="edu-body">
+            <h3>Bachelor of Science in Information Technology</h3>
+            <h4>Davao del Norte State College</h4>
+            <p>
+              BSIT student with a strong interest in technology and design. A motivated
+              and adaptable individual who continuously seeks to learn and develop new skills.
+            </p>
+            <div class="edu-tags">
+              <span>Web Development</span><span>UI/UX</span><span>Databases</span><span>Programming</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="title-num">03</span> Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass">
+              <span class="timeline-date">2025 – 2026 · 6 Months</span>
+              <h3>Administrative Aide I</h3>
+              <h4>Office of the City Administrator</h4>
+              <p>
+                Assisted the Office of the City Administrator in handling and encoding cheque
+                records, organizing and maintaining office documents, ensuring accurate
+                record-keeping, and performing administrative tasks that contributed to the
+                efficient operation of the office.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass">
+              <span class="timeline-date">2024 – 2025</span>
+              <h3>Virtual Assistant — Customer Service (Non-Voice)</h3>
+              <h4>City Treasurer's Office</h4>
+              <p>
+                Delivered non-voice customer support by managing assigned accounts, addressing
+                various customer inquiries and concerns, providing accurate information and
+                appropriate assistance, and maintaining professional communication to ensure a
+                positive customer experience.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass">
+              <span class="timeline-date">Administrative</span>
+              <h3>Administrative Aide I</h3>
+              <p>
+                Supported daily office operations by handling administrative tasks, maintaining
+                accurate data records, organizing documents, and assisting staff to ensure
+                efficient workflow.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="title-num">04</span> Skills</h2>
+        <div class="skills-grid">
+          <div class="skills-panel glass reveal">
+            <h3 class="panel-title">Technical Skills</h3>
+            <div class="skill" data-level="90">
+              <div class="skill-head"><span>HTML5 / CSS3</span><span class="skill-pct">90%</span></div>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+            <div class="skill" data-level="80">
+              <div class="skill-head"><span>JavaScript / React.js</span><span class="skill-pct">80%</span></div>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+            <div class="skill" data-level="75">
+              <div class="skill-head"><span>Bootstrap / Responsive Design</span><span class="skill-pct">75%</span></div>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+            <div class="skill" data-level="70">
+              <div class="skill-head"><span>Java / Python</span><span class="skill-pct">70%</span></div>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+            <div class="skill" data-level="72">
+              <div class="skill-head"><span>MySQL / Database Mgmt</span><span class="skill-pct">72%</span></div>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+            <div class="skill" data-level="65">
+              <div class="skill-head"><span>Three.js / Blender</span><span class="skill-pct">65%</span></div>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+            <div class="tools-row">
+              <span class="tool-chip">Git / GitHub</span>
+              <span class="tool-chip">Figma</span>
+              <span class="tool-chip">Canva</span>
+              <span class="tool-chip">UI/UX Design</span>
+            </div>
+          </div>
+          <div class="skills-panel glass reveal">
+            <h3 class="panel-title">Professional Skills</h3>
+            <div class="pro-chips">
+              <span class="pro-chip">Communication Skills</span>
+              <span class="pro-chip">Time Management</span>
+              <span class="pro-chip">Problem Solving</span>
+              <span class="pro-chip">Critical Thinking</span>
+              <span class="pro-chip">Teamwork &amp; Collaboration</span>
+              <span class="pro-chip">Administrative Support</span>
+              <span class="pro-chip">Attention to Detail</span>
+              <span class="pro-chip">Organization</span>
+              <span class="pro-chip">Creativity</span>
+              <span class="pro-chip">Adaptability</span>
+              <span class="pro-chip">Documentation &amp; Record Keeping</span>
+              <span class="pro-chip">Fast Learner</span>
+              <span class="pro-chip">Project Management</span>
+              <span class="pro-chip">Customer Service</span>
+              <span class="pro-chip">Data Entry</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="title-num">05</span> Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card glass reveal">
+            <div class="project-thumb"><img src="MotoMaster.jpg" alt="MotoMaster preview" /></div>
+            <div class="project-body">
+              <h3>MotoMaster</h3>
+              <p>
+                A web-based motorcycle maintenance learning platform with interactive
+                3D simulations, guided practice areas, and assessment tasks covering
+                air filter, battery, brakes, engine oil, fuel, and spark plug servicing.
+                Includes student, teacher, and admin roles with performance tracking.
+              </p>
+              <div class="project-tech">
+                <span>Three.js</span><span>JavaScript</span><span>Python / Flask</span>
+                <span>MySQL</span><span>Bootstrap</span><span>Blender</span>
+              </div>
+              <div class="project-links">
+                <span class="p-link p-link-disabled">Local XAMPP project</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-thumb"><img src="sunrise-kiosk.jpg" alt="Sunrise Kiosk preview" /></div>
+            <div class="project-body">
+              <h3>Sunrise Kiosk — Touchscreen POS</h3>
+              <p>
+                A self-service touchscreen point-of-sale kiosk for ordering snacks and
+                drinks, featuring a guided Order → Review → Payment → Receipt flow
+                with an order tray and real-time totals.
+              </p>
+              <div class="project-tech">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Vercel</span>
+              </div>
+              <div class="project-links">
+                <a href="https://pos-kiosk-system.vercel.app" target="_blank" rel="noopener" class="p-link">Live Demo &#8599;</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-thumb thumb-1"><span>AP</span></div>
+            <div class="project-body">
+              <h3>AiaPortfolio — Personal Portfolio</h3>
+              <p>
+                A personal portfolio website showcasing my profile, skills, and work,
+                designed with a clean layout and deployed on GitHub Pages.
+              </p>
+              <div class="project-tech">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>GitHub Pages</span>
+              </div>
+              <div class="project-links">
+                <a href="https://aia0011.github.io/AiaPortfolio/#home" target="_blank" rel="noopener" class="p-link">Live Demo &#8599;</a>
+                <a href="https://github.com/aia0011/AiaPortfolio" target="_blank" rel="noopener" class="p-link">GitHub Repo &#8599;</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-thumb thumb-2"><span>CV</span></div>
+            <div class="project-body">
+              <h3>Interactive CV Website</h3>
+              <p>
+                This website — a responsive, animated online CV with scroll-based
+                animations, an interactive timeline, and animated skill indicators.
+              </p>
+              <div class="project-tech">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive Design</span>
+              </div>
+              <div class="project-links">
+                <a href="#home" class="p-link">Live Demo &#8599;</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card glass project-empty reveal">
+            <div class="project-body">
+              <h3>Your Next Project</h3>
+              <p>
+                Add a project from your programming activities here — include a
+                description, the technologies used, and links to the repository or demo.
+              </p>
+              <div class="project-links">
+                <span class="p-link p-link-disabled">+ Add project details</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Connect: GitHub, LinkedIn, Social ===== -->
+    <section class="section" id="connect">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="title-num">06</span> Connect With Me</h2>
+        <div class="connect-grid">
+          <div class="connect-card glass reveal">
+            <div class="connect-icon">
+              <svg viewBox="0 0 24 24" width="34" height="34" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11.1 11.1 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.83 1.18 3.09 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            </div>
+            <h3>GitHub</h3>
+            <p>Check out my repositories, coding activities, and development projects.</p>
+            <a href="https://github.com/aia0011" target="_blank" rel="noopener" class="btn btn-outline connect-btn">github.com/aia0011</a>
+            <div class="featured-repo">
+              <span class="repo-label">Featured repo</span>
+              <a href="https://github.com/aia0011/AiaPortfolio" target="_blank" rel="noopener">aia0011/AiaPortfolio</a>
+            </div>
+          </div>
+          <div class="connect-card glass reveal">
+            <div class="connect-icon">
+              <svg viewBox="0 0 24 24" width="34" height="34" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+            </div>
+            <h3>LinkedIn</h3>
+            <p>Connect with me professionally and follow my career journey in IT.</p>
+            <a href="https://www.linkedin.com/in/albea-pallado-0456a2345/" target="_blank" rel="noopener" class="btn btn-outline connect-btn">linkedin.com/in/albea-pallado</a>
+          </div>
+          <div class="connect-card glass reveal">
+            <div class="connect-icon">
+              <svg viewBox="0 0 24 24" width="34" height="34" fill="currentColor"><path d="M12 2.04C6.5 2.04 2.04 6.53 2.04 12.06c0 5.52 4.46 10.02 9.96 10.02 5.5 0 9.96-4.5 9.96-10.02C21.96 6.53 17.5 2.04 12 2.04zm4.97 5.49h-2.1c-.25 0-.52.33-.52.86v1.63h2.62l-.34 2.62h-2.28v6.71h-2.71v-6.71H9.36v-2.62h2.28V8.13c0-2.26 1.38-3.49 3.4-3.49.97 0 1.8.07 2.05.1l-.12 2.79z"/></svg>
+            </div>
+            <h3>Social Media</h3>
+            <p>Find me on other platforms — I'm happy to connect and collaborate.</p>
+            <div class="social-row">
+              <a href="https://github.com/aia0011" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub" title="GitHub">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11.1 11.1 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.83 1.18 3.09 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/albea-pallado-0456a2345/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn" title="LinkedIn">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+              </a>
+              <a href="https://web.facebook.com/albeatatoy.pallado/" target="_blank" rel="noopener" class="social-btn" aria-label="Facebook" title="Facebook">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46H15.2c-1.24 0-1.63.77-1.63 1.57V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/aiapallado" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram" title="Instagram">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.35 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23a3.7 3.7 0 0 1-.9 1.38c-.42.42-.82.68-1.38.9-.42.16-1.06.35-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.35-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.35 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zM12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63a6 6 0 0 0-2.13 1.38A6 6 0 0 0 .63 4.14C.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.13a6 6 0 0 0 2.13 1.38c.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56a6 6 0 0 0 2.13-1.38 6 6 0 0 0 1.38-2.13c.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a6 6 0 0 0-1.38-2.13A6 6 0 0 0 19.86.63C19.1.33 18.22.13 16.95.07 15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 4-4 4 4 0 0 1-4 4zm7.85-10.4a1.44 1.44 0 1 1-1.44-1.44 1.44 1.44 0 0 1 1.44 1.44z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Achievements ===== -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="title-num">07</span> Achievements &amp; Certifications</h2>
+        <div class="ach-grid">
+          <div class="ach-card glass reveal">
+            <a class="cert-frame" href="cert/ccna-intro-to-networks.pdf" target="_blank" rel="noopener">
+              <iframe src="cert/ccna-intro-to-networks.pdf#toolbar=0&navpanes=0&view=FitH" title="CCNA: Introduction to Networks certificate" loading="lazy"></iframe>
+              <span class="cert-overlay">View Certificate &#8599;</span>
+            </a>
+            <h3>CCNA: Introduction to Networks</h3>
+            <p class="ach-meta">Cisco Networking Academy · DNSC · Jun 2025</p>
+            <p>
+              Successfully completed the CCNA Introduction to Networks course offered
+              by Davao del Norte State College through the Cisco Networking Academy program.
+            </p>
+          </div>
+          <div class="ach-card glass reveal">
+            <a class="cert-frame" href="cert/ccna-switching-routing-wireless.pdf" target="_blank" rel="noopener">
+              <iframe src="cert/ccna-switching-routing-wireless.pdf#toolbar=0&navpanes=0&view=FitH" title="CCNA: Switching, Routing, and Wireless Essentials certificate" loading="lazy"></iframe>
+              <span class="cert-overlay">View Certificate &#8599;</span>
+            </a>
+            <h3>CCNA: Switching, Routing, and Wireless Essentials</h3>
+            <p class="ach-meta">Cisco Networking Academy · DNSC · Dec 2025</p>
+            <p>
+              Successfully completed the CCNA Switching, Routing, and Wireless Essentials
+              course offered by Davao del Norte State College through the Cisco Networking Academy program.
+            </p>
+          </div>
+          <div class="ach-card glass reveal">
+            <a class="cert-frame ach-photo" href="cert/mcits-capstone-presentation.jpg" target="_blank" rel="noopener">
+              <img src="cert/mcits-capstone-presentation.jpg" alt="MCITS Capstone Presentation" loading="lazy" />
+              <span class="cert-overlay">View Photo &#8599;</span>
+            </a>
+            <h3>MCITS Capstone Presentation</h3>
+            <p class="ach-meta">Capstone Presenter · 2026</p>
+            <p>
+              Presented our capstone project at the MCITS event, showcasing our work
+              alongside fellow IT students and faculty.
+            </p>
+          </div>
+          <div class="ach-card glass ach-empty reveal">
+            <span class="ach-icon">&#127942;</span>
+            <h3>More Achievements</h3>
+            <p>
+              Add more certificates, awards, seminars, trainings, or organization
+              involvement here as you earn them.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="nav-logo">AP<span>.</span></a>
+      <p>Albea T. Pallado — BSIT, Davao del Norte State College</p>
+      <div class="footer-links">
+        <a href="mailto:aiapallado@gmail.com">Email</a>
+        <a href="tel:+639488124593">Phone</a>
+        <a href="https://aia0011.github.io/AiaPortfolio/#home" target="_blank" rel="noopener">Portfolio</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Back to top ===== -->
+  <button class="to-top" id="toTop" aria-label="Back to top">&#8593;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
